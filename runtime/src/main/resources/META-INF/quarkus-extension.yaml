@@ -1,0 +1,14 @@
+name: Quarkus Datafaker Extension
+description: Support for the DataFaker library into Quarkus applications
+metadata:
+  keywords:
+    - datafaker
+    - testing
+    - data
+    - synthetic
+  guide: https://github.com/quarkiverse/quarkus-datafaker/blob/main/README.md
+  categories:
+    - "data"
+    - "miscellaneous"
+    - "testing"
+  status: "preview"

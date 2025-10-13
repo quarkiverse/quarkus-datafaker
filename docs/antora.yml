@@ -1,0 +1,5 @@
+name: quarkus-datafaker
+title: Datafaker
+version: dev
+nav:
+  - modules/ROOT/nav.adoc
