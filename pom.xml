@@ -30,7 +30,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <quarkus.version>3.29.0</quarkus.version>
-        <datafaker.version>2.5.2</datafaker.version>
+        <datafaker.version>2.5.3</datafaker.version>
     </properties>
 
     <dependencyManagement>
