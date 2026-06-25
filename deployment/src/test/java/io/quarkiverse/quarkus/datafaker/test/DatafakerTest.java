@@ -1,9 +1,11 @@
 package io.quarkiverse.quarkus.datafaker.test;
 
+import static io.restassured.RestAssured.given;
+
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
-import net.datafaker.Faker;
+
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.junit.jupiter.api.Assertions;
@@ -11,8 +13,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.RegisterExtension;
 
 import io.quarkus.test.QuarkusUnitTest;
-
-import static io.restassured.RestAssured.given;
+import net.datafaker.Faker;
 
 public class DatafakerTest {
 

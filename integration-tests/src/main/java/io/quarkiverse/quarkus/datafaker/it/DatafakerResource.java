@@ -16,12 +16,13 @@
 */
 package io.quarkiverse.quarkus.datafaker.it;
 
+import java.util.Locale;
+
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
-import net.datafaker.Faker;
 
-import java.util.Locale;
+import net.datafaker.Faker;
 
 @Path("/fake-data")
 @ApplicationScoped
