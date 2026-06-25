@@ -9,7 +9,7 @@
     </parent>
     <groupId>io.quarkiverse.quarkus-datafaker</groupId>
     <artifactId>quarkus-datafaker-parent</artifactId>
-    <version>999-SNAPSHOT</version>
+    <version>0.0.0</version>
     <packaging>pom</packaging>
     <name>Quarkus Datafaker - Parent</name>
 
@@ -22,7 +22,8 @@
         <connection>scm:git:git@github.com:quarkiverse/quarkus-datafaker.git</connection>
         <developerConnection>scm:git:git@github.com:quarkiverse/quarkus-datafaker.git</developerConnection>
         <url>https://github.com/quarkiverse/quarkus-datafaker</url>
-    </scm>
+      <tag>0.0.0</tag>
+  </scm>
 
     <properties>
         <compiler-plugin.version>3.15.0</compiler-plugin.version>
