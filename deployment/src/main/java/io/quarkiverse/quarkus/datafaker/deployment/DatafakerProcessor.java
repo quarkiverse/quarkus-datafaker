@@ -14,8 +14,8 @@ class DatafakerProcessor {
     @BuildStep
     NativeImageResourcePatternsBuildItem yamlResources() {
         return NativeImageResourcePatternsBuildItem.builder()
-                .includePatterns("en/.*.yml$")
-                .includePatterns(".*.yml$")
+                .includeGlob("en/**/*.yml")
+                .includeGlob("**/*.yml")
                 .build();
     }
 }
